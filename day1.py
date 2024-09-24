@@ -12,8 +12,8 @@ class Car:
     def __str__(self):
         return f"{self.color}-{self.__make}-{self.model}"
     
-    def __repr__(self):
-        return f"{self.color}-{self.__make}-{self.model}"
+    # def __repr__(self):
+    #     return f"{self.color}-{self.model}-{self.__make}"
     
     def getmake(self):
         return self.__make
@@ -29,18 +29,17 @@ car2 = Car('Maruti','levo','black')
 # print(car1)
 # print(car1.getmake())
 # print(car1.SetMake('kia'))
-# print(car1)
-del car1.color
-# print(car1)
+
+print(car1)
  
 
-class beta:
-    pass
-b1= beta()
-print(b1)        
-b1.name ="first object"
-print(b1.name)
-print(car1==car2)
-del car1
+# class beta:
+#     pass
+# b1= beta()
+# print(b1)        
+# b1.name ="first object"
+# print(b1.name)
+# print(car1==car2)
+# del car1
 
-del car2 
+# del car2 
