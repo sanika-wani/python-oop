@@ -13,13 +13,20 @@
 
 #enumerate
 
-name = input("enter name:")
-print(f"Your name is {name}")
-try:
-    age = int(input("Enter your age: "))
-    if (age>17):
-        print("you can drive")
-    else:
-        print("you are too young to drive")
-except ValueError:
-    print("wrong input, please try again")
+# name = input("enter name:")
+# print(f"Your name is {name}")
+# try:
+#     age = int(input("Enter your age: "))
+#     if (age>17):
+#         print("you can drive")
+#     else:
+#         print("you are too young to drive")
+# except ValueError:
+#     print("wrong input, please try again")
+
+from inphdl import xinputs
+name = input("Enter your dns name: ")
+
+print("server dns set to f{port}")
+
+port = xinputs.getINT("Enter port")#incomplete
