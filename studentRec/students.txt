@@ -1,0 +1,1 @@
+[{'name': 'sanika', 'age': 13, 'score': 98}]
