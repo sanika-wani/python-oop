@@ -28,4 +28,3 @@ while True:
         print("Thanks visit again")
     else :
         print("enter vaid input")
-
